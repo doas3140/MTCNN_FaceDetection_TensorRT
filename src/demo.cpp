@@ -51,7 +51,7 @@ void image_test(string image_path)
 
 int main()
 {
-    camera_test(10000);
-    // image_test("../4.jpg");
+    // camera_test(10000);
+    image_test("../4.jpg");
     return 0;
 }
