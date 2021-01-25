@@ -44,7 +44,7 @@ void image_test(string image_path)
     start = clock() -start;
     imshow("result", image);
     imwrite("result.jpg",image);
-    cout<<"time is  "<<1000*(double)start/CLOCKS_PER_SEC<<endl;
+    cout<<"time is  "<<(double)start/CLOCKS_PER_SEC<<endl;
     waitKey(0);
     image.release();
 }
@@ -52,6 +52,6 @@ void image_test(string image_path)
 int main()
 {
     camera_test(10000);
-//    image_test("4.jpg");
+    // image_test("../4.jpg");
     return 0;
 }
